@@ -39,6 +39,7 @@ import EquityMetricsPage from "@/pages/EquityMetricsPage";
 import GoalsPage from "@/pages/GoalsPage";
 import WorkflowsPage from "@/pages/WorkflowsPage";
 import TemplatesPage from "@/pages/TemplatesPage";
+import TranslationPage from "@/pages/TranslationPage";
 
 const PROGRAM_NAME = "One DSD People and Culture Program";
 
@@ -64,6 +65,7 @@ const NAV_ITEMS: NavItem[] = [
   { label: "DEIA Calendar", path: "/calendar", group: "Staff (30%)", shortLabel: "Calendar" },
   { label: "Community Voice", path: "/community", group: "Staff (30%)", shortLabel: "Voice" },
   { label: "Community Profiles", path: "/community-profiles", group: "Staff (30%)", shortLabel: "Profiles" },
+  { label: "Translation", path: "/translation", group: "Staff (30%)", shortLabel: "Translate" },
   // System
   { label: "Policy Documents", path: "/policy", group: "System", shortLabel: "Policy" },
   { label: "Goals", path: "/goals", group: "System", shortLabel: "Goals" },
@@ -434,6 +436,7 @@ function AppShell() {
               <Route path="/calendar" element={<DeiaCalendarPage />} />
               <Route path="/community" element={<CommunityPage />} />
               <Route path="/community-profiles" element={<CommunityProfilesPage />} />
+              <Route path="/translation" element={<TranslationPage />} />
               {/* System */}
               <Route path="/policy" element={<PolicyPage />} />
               <Route path="/goals" element={<GoalsPage />} />
