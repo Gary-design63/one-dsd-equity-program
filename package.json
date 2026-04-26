@@ -1,0 +1,1 @@
+{"name":"one-dsd-equity-program","private":true,"version":"1.0.0","workspaces":["apps/api","apps/web"],"scripts":{"build":"npm run build --workspaces","test":"npm run test --workspaces --if-present","smoke":"npm run smoke -w apps/api"},"engines":{"node":">=20.0.0"}}
